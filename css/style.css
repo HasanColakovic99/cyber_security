@@ -1,0 +1,679 @@
+* {
+    /* MAKELI SMO PADDING I MARGIN DA CRNA BOJA BUDE DO VRHA I SA STRANA */
+    padding: 0; 
+    margin: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.pre-header{
+    background-color: #111618;
+    height: 60px;
+    color: white;
+    padding-top: 15px;
+}
+
+.secondary-menu {
+    list-style: none;
+    color: ;
+    
+}
+
+.pre-header .secondary-menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.pre-header .secondary-menu li a {
+    color: #707374;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav .main-menu {
+    padding-top: 20px;
+}
+
+.main-nav img {
+    padding-top: 10px;
+    margin-bottom: 10px
+}
+
+.main-nav .main-menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.main-nav .main-menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #707374;
+}
+
+.main-nav .main-menu .fre-quote-btn a{
+    background-color: #4f33f1;
+    padding: 10px;
+    color: white;
+}
+
+.main-nav .main-menu .fre-quote-btn a:hover{
+    color: #4f33f1;
+    background-color: white;
+    border: 1px solid #4f33f1;
+    transition: 0.2s;
+}
+
+.hero-section {
+    background-image: url('../images/header.jpg');
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-size: cover;
+}
+
+.hero-section h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 63px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.hero-section a {
+    background-color: #4f33f1;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hero-section a:hover {
+    color: #4f33f1;
+    background-color: white;
+    border: 1px solid #4f33f1;
+    transition: 0.2s;
+}
+
+.sero-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sero-section h3 {
+    text-align: center;
+    color: #4c007b;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.sero-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #343434;
+    font-weight: bold;
+}
+
+.sero-section p {
+    text-align: center;
+    color: #818181;
+}
+
+.sero-section .service-item {
+    background-color: #1b1f20;
+    box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    transition: 0.2s;
+    margin-top: 50px;
+}
+
+.sero-section .service-item:hover {
+    background-color: #4c007b;
+    cursor: pointer;
+    margin-top: 30px;
+    box-shadow: 1px 0px 13px 0px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 1px 0px 13px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 1px 0px 13px 0px rgba(0,0,0,0.8);
+}
+
+.sero-section .service-item h4 {
+    text-transform: uppercase;
+}  
+
+.sero-section .service-item p {
+
+}
+
+.sero-section .service-item a {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.how-it-works {
+    background-image: url('../images/works.jpg');
+    text-align: center;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.how-it-works h5 {
+    color: #1a7ffb;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.how-it-works h2 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.how-it-works p {
+    color: white;
+}
+
+.how-it-works a {
+    display: block;
+    position: relative;
+    bottom: -30px;
+}
+
+.customer-say-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.customer-say-section .testimonials {
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.customer-say-section .testimonials .testimonial-inner {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    padding: 25px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.customer-say-section .testimonials .testimonial-inner .testimonial-content {
+    position: absolute;
+    bottom: 20px
+}
+
+.customer-say-section .testimonials .testimonial-inner .testimonial-content:before{
+    content: "";
+    width: 3px;
+    height: 55px;
+    background-color: white;
+    position: absolute;
+    left: -10px;
+    top: 5px;
+}
+
+.about-us {
+    background-image: url('../images/about-us.jpg');
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+}
+
+.about-us h2 {
+    font-size: 40px;
+}
+
+.about-us h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 1px dotted #7c7586;
+    padding-bottom: 10px;
+}
+
+.about-us h3:before{
+    content: "";
+    display: inline-block;
+    background-color: #315df7;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+}
+
+
+.about-us ul {
+    margin-left: 20px;
+}
+
+.training-seminars {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.training-seminars h5 {
+    color: #315df7;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.training-seminars h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+
+.training-seminars .prvi-paragraf {
+    color: #818181;
+}
+
+.training-seminars .school-inner {
+    background-image: url('../images/school.jpg');
+}
+
+.training-seminars .school-inner .school-overlay {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    padding: 50px;
+    color: white !important;
+}
+
+.training-seminars .school-inner .school-overlay .conference-date span {
+    background-color: #2a66f7;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.training-seminars .school-inner .school-overlay .countdown {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 42px;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.training-seminars .school-inner .school-overlay .learn-more-btn {
+    background-color: #4f33f1;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 85% 100%, 0 100%);
+    border: 0;
+}
+
+.training-seminars .school-inner .school-overlay .learn-more-btn:hover {
+    color: #fff !important;
+    background-color: #3b12a2;
+    transition: 0.2s;
+    
+}
+
+.training-seminars .school-inner .school-overlay h4 {
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.contact-section {
+    text-align: center;
+    color: white;
+    background-image: url('../images/about-us.jpg');
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-section .left-row {
+    text-align: left;
+}
+
+.contact-section h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.contact-section .first-paragraf {
+    margin-bottom: 50px;
+}
+
+.contact-section h4 {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 1px dotted #7c7586;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+
+.contact-section h4:before {
+    content: "";
+    display: inline-block;
+    background-color: #315df7;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+}
+
+.contact-section .left-row h3{
+    font-size: 35px;
+}
+
+.contact-section .left-row .contact-content h5 {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-bottom: 1px dotted #7c7586;
+    padding-bottom: 7px;
+}
+
+.contact-section .left-row .contact-content h5:before {
+    content: "";
+    background-color: #fff;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+}
+.contact-section .left-row .contact-content p {
+    font-size: 14px;
+}
+
+.contact-section .left-row .contact-content .mobile {
+    margin-bottom: 4px;
+}
+
+
+.contact-section .left-row .email-content {
+    margin-top: 20px;
+}
+
+.contact-section .left-row .email-content h5 {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-bottom: 1px dotted #7c7586;
+    padding-bottom: 7px;
+}
+
+.contact-section .left-row .email-content h5:before{
+    content: "";
+    background-color: #fff;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+}
+
+.contact-section .left-row .email-content p{
+    margin-bottom: 1px;
+}
+.contact-section .left-row .email-content a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.contact-section form {
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 50px;
+}
+
+.contact-section form textarea, .contact-section form label, .contact-section form input {
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    border: 0;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.contact-section form label {
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.contact-section form textarea {
+    height: 80px;
+}
+
+.contact-section form button {
+    width: 280px;
+    height: 40px;
+    background-color: #1a7ffb;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+    margin-top: 44px;
+}
+
+
+.pricing-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.pricing-section .first-sentence {
+    text-transform: uppercase;
+    color: #315df7;
+    margin-bottom: 20px;
+}
+
+.pricing-section .second-sentence {
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.pricing-section .third-sentence {
+    color: #707374;
+    font-size: 20px;
+}
+
+.pricing-section a {
+    background-color: #4f33f1;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.pricing-section a:hover {
+    color: #4f33f1;
+    background-color: white;
+    border: 1px solid #4f33f1;
+    transition: 0.2s;
+}
+
+.pricing-section .pricing-plan {
+    margin-top: 50px;
+    background-color: #1c2021;
+    color: white;
+    padding: 25px;
+}
+
+.pricing-section .pricing-plan ul {
+    list-style: none;
+}
+
+.pricing-section .pricing-plan:hover {
+    background-color: #3c309d;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.pricing-section .pricing-plan ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+}
+
+.pricing-section .pricing-plan .price {
+    position: relative;
+    border-top: 3px dotted #fff;
+    border-bottom: 3px dotted #fff;
+    margin-bottom: 20px;
+}
+
+.pricing-section .pricing-plan .main-num {
+    font-size: 60px;
+    font-style: italic;
+}
+
+.pricing-section .pricing-plan .sec-num {
+    position: relative;
+    top: -30px;
+}
+
+.pricing-section .pricing-plan .month {
+    position: relative;
+    left: -25px;
+} 
+
+.profit-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url('../images/footer.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.profit-section img {
+    margin-bottom: 20px;
+}
+
+.profit-section h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.profit-section p {
+    font-size: 20px;
+}
+
+.profit-section a {
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+footer h4 {
+    border-bottom: 1px dotted gray;
+    color: #343434;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+footer h4:before{
+    content: "";
+    display: inline-block;
+    background-color: #315df7;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    position: relative;
+    top: -2px;
+}
+
+footer ul li a{
+    color: #818181;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer a i {
+    font-size: 35px;
+    color: #818181;
+    margin-right: 10px;
+}
+
+.after-footer {
+    background-color: #111618;
+    height: 100px;
+}
+
+.after-footer p {
+    padding-top: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.after-footer p span {
+    color: #1a7ffb;
+}
+
+.after-footer ul li {
+    padding-top: 40px;
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.after-footer ul li a {
+    text-decoration: none;
+    color: #bfc0c0;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
